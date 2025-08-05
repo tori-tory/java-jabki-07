@@ -25,7 +25,7 @@ public class Main {
                 new Rectangle(2,2)
         };
         for (Shape shape : shapes) {
-            shape.displayArea(shape.area());
+            shape.displayArea();
         }
 
         /**

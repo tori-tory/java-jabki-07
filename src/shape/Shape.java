@@ -4,7 +4,7 @@ public abstract class Shape {
 
     public abstract double area();
 
-    public void displayArea(double area){
-        System.out.printf("Площадь фигуры = %s\n", area);
+    public void displayArea(){
+        System.out.printf("Площадь фигуры = %s\n", area());
     }
 }
